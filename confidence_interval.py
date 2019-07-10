@@ -11,4 +11,4 @@ std_err=sem(data)
 h=std_err*t.ppf((1+confidence)/2,n-1)
 start=m-h
 end=m+h
-print( "cofidence_limits", start, end)
+print("cofidence_limits", start, end)
